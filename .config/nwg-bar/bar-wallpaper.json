@@ -1,0 +1,18 @@
+[
+
+  {
+    "exec": "/home/hina/.config/nwg-bar/theme.sh purple",
+    "icon": "/home/hina/.config/wallpapers/purple.png",
+    "label": "Hinata Hyuga"
+  },
+  {
+    "exec": "/home/hina/.config/nwg-bar/theme.sh red-black-blue",
+    "icon": "/home/hina/.config/wallpapers/red-black-blue.png",
+    "label": "Twin Akuma"
+  },
+  {
+    "exec": "/home/hina/.config/nwg-bar/theme.sh red-orange-yellow",
+    "icon": "/home/hina/.config/wallpapers/red-orange-yellow.png",
+    "label": "Mordred"
+  }
+]
