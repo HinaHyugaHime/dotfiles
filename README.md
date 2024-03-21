@@ -1,6 +1,8 @@
 # dotfiles
-PS: I know the notification color could be better 
-just run the install.sh and it'll self install the deps and files
+fixed the notifications, to install:
+```git clone https://github.com/HinaHyugaHime/dotfiles.git```
+then
+then move the .config in dotfiles to your home folder and then run the install.sh
 
 previews:
 ![image](https://github.com/HinaHyugaHime/dotfiles/assets/102651522/235a827f-34d3-46ab-a945-497013f7b0f6)
