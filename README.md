@@ -1,4 +1,5 @@
 # dotfiles
+PS: I know the notification color could be better 
 just run the install.sh and it'll self install the deps and files
 
 previews:
