@@ -31,7 +31,7 @@ tooltip label {
 
 .modules-center {
   padding: 5px;
-  background-color: rgba(242, 224, 181, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   color: #1e1e2e;
 }
 
@@ -53,7 +53,7 @@ button:hover {
 }
 
 #workspaces button:hover {
-  background: rgba(242, 224, 181, 0.7);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 #workspaces button.active {
@@ -81,7 +81,7 @@ button:hover {
 #tray,
 #pulseaudio {
   padding: 0px 10px;
-  background-color: rgba(242, 224, 181, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 3px;
   color: #1e1e2e;
 }
