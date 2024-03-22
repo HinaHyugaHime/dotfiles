@@ -15,7 +15,7 @@ $MOD=Win key
 
 swap wallpaper/colors: $MOD + SPACE 
 
-run rofi: $MOD + R
+run wofi: $MOD + R
 
 terminal: $MOD + T
 
@@ -63,4 +63,4 @@ swappy
 
 hyprshot
 
-rofi
+wofi
