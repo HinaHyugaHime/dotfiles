@@ -49,7 +49,7 @@ network-manager-applet
 
 copyq
 
-swww
+hyprpaper
 
 nwg-{dock-hyprland,look,drawer,bar}
 
