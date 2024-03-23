@@ -5,4 +5,3 @@ cd $HOME/.config/nwg-bar
 
 sed -i "s/riceuser/$USER/g" bar-screenshot.json
 
-sed -i "s/riceuser/$USER/g" bar-wallpaper.json

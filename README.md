@@ -11,21 +11,11 @@ previews:
 Mordred:
 	![image](https://github.com/HinaHyugaHime/dotfiles/assets/102651522/235a827f-34d3-46ab-a945-497013f7b0f6)
 
-Twin Akuma(Old)
-	![3](https://github.com/HinaHyugaHime/dotfiles/assets/102651522/50de3ce0-cb96-47b0-95c8-dd6dbfa6b09b)
-
-Hinata Hyuga
-	![2](https://github.com/HinaHyugaHime/dotfiles/assets/102651522/caa83328-14fd-4eb9-80ba-92cb4ee13244)
-
-(new) Red
-	![image](https://github.com/HinaHyugaHime/dotfiles/assets/102651522/100760b8-b954-4383-895d-2827e030ca03)
 
 
 Noteable keybinds:
 
 $MOD=Win key
-
-swap wallpaper/colors: $MOD + SPACE 
 
 run wofi: $MOD + R
 
@@ -53,7 +43,7 @@ copyq
 
 hyprpaper
 
-nwg-{dock-hyprland,look,drawer,bar}
+nwg-bar
 
 polkit-kde-agent
 
