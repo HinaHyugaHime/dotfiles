@@ -1,33 +1,30 @@
 #!/bin/sh
 # "Change keyboard layout in" "~/.config/hypr/hyprland.conf" " " \
 
-yad --width=530 --height=550 \
+yad --width=530 --height=600 \
 --center \
 --fixed \
---title="Garuda Hyprland Keybindings" \
+--title="Hyprland Keybindings" \
 --no-buttons \
 --list \
 --column=Key: \
 --column=Description: \
 --column=Command: \
---timeout=60 \
+--timeout=0 \
 --timeout-indicator=right \
-"ESC" "close this app" "" "=" "modkey" "(set mod Mod4)" \
-"+enter/+t" "Terminal" "(foot)" \
-"+d" "Application Menu" "(wofi)" \
-"+Shift+d" "Full Launcher" "(nwggrid)" \
-"+o" "" "Open Broswer" \
-"+n" "" "Open Files" \
+"ESC" "close this app" "" "=" "mod" "(set mod Mod4)" \
+"+t" "Terminal" "Open Terminal" \
+"+w" "Application Menu" "(wofi)" \
+"+Shift+f" "Full Launcher" "(nwggrid)" \
+"+n" "" "Open Thunar" \
 "+q" "close focused app" "(kill)" \
-"Print" "screenshot" "(grimblast)" \
-"Shift+Print" "screenshot region" "(grimblast)" \
-"+Print" "screenshot window" "(grimblast)" \
+"Print" "screenshot(menu)" "Swappy/Nwgbar" \
 "+Shift+e" "power-menu" "(wofi)" \
-"+Shift+c" "Change wallpaper" "(wpaperd)" \
+"+d" "Discord" "Open Discord" \
 "+f" "Fullscreen" "Toggles to full screen" \
-"+Shift+f" "Fake fullscreen" "Behave full screen without full screen" \
-"+Shift+Spacebar" "Float" "Toggle windows to float" \
-"+p" "Dwindle effect" "pseudo" \
-"+j" "Dwindle effect" "toggle split" \
-"+i" "Calamares" "Install Garuda Hyprland" \
-"" "" "     Window closed in 60 sec."\
+"+s" "Steam" "Open Steam" \
+"+Shift+r" "Refresh" "Refresh Hyprctl" \
+"+1(up to 0=10)" "Workspace" "Switch Workspace" \
+"+1(up to 0=10)" "Workspace" "Move app to workspace" \
+
+
