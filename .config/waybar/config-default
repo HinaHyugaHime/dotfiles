@@ -41,7 +41,7 @@
   },
   "exec-if": "which waybar-module-pacman-updates",
   "exec": "waybar-module-pacman-updates",
-  "on-click": "yay -Syyu"
+  "on-click": "foot -e update"
 },
   "custom/notification": {
     "escape": true,

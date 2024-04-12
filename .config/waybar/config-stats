@@ -1,0 +1,149 @@
+{
+  "cpu": {
+    "format": "{avg_frequency:4}GHz | {usage:2}% ",
+    "interval": 1,
+    "tooltip": false
+  },
+  "disk": {
+    "format": " {free}",
+    "path": "/",
+    "tooltip": true
+  },
+  "disk#backups": {
+    "format": " {free}",
+    "path": "/backups",
+    "tooltip": true
+  },
+  "disk#games": {
+    "format": " {free}",
+    "path": "/games",
+    "tooltip": true
+  },
+  "disk#home": {
+    "format": " {free}",
+    "path": "/home",
+    "tooltip": true
+  },
+  "height": 35,
+  "id": "1",
+  "layer": "top",
+  "memory": {
+    "format": "{}% ",
+    "interval": 3
+  },
+  "modules-center": [
+    "mpris"
+  ],
+  "modules-left": [
+    "temperature",
+    "cpu",
+    "memory"
+  ],
+  "modules-right": [
+    "disk",
+    "disk#home",
+    "disk#games",
+    "disk#backups",
+    "pulseaudio",
+    "pulseaudio#mic",
+    "privacy"
+  ],
+  "mpris": {
+    "dynamic-importance-order": [
+      "title",
+      "artist"
+    ],
+    "dynamic-order": [
+      "title",
+      "artist"
+    ],
+    "format": "{player_icon} {dynamic}",
+    "format-paused": "{status_icon} {dynamic}",
+    "format-stopped": "{status_icon} Play something maybe?",
+    "player-icons": {
+      "default": "󰐊",
+      "spotify": " "
+    },
+    "status-icons": {
+      "paused": "󰏤",
+      "stopped": "󰓛"
+    }
+  },
+  "position": "top",
+  "privacy": {
+    "icon-size": 14,
+    "icon-spacing": 4,
+    "modules": [
+      {
+        "tooltip": true,
+        "tooltip-icon-size": 16,
+        "type": "screenshare"
+      },
+      {
+        "tooltip": true,
+        "tooltip-icon-size": 16,
+        "type": "audio-out"
+      },
+      {
+        "tooltip": true,
+        "tooltip-icon-size": 16,
+        "type": "audio-in"
+      }
+    ],
+    "transition-duration": 250
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-icons": {
+      "car": "",
+      "default": [
+        "",
+        "",
+        ""
+      ],
+      "hands-free": "",
+      "headphone": "",
+      "headset": "",
+      "phone": "",
+      "portable": ""
+    },
+    "format-muted": "󰝟 muted",
+    "format-source": "{volume}% ",
+    "on-click": "swayosd-client --output-volume mute-toggle",
+    "on-click-right": "pavucontrol",
+    "on-scroll-down": "swayosd-client --output-volume lower",
+    "on-scroll-up": "swayosd-client --output-volume raise"
+  },
+  "pulseaudio#mic": {
+    "format": "{format_source}",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-icons": {
+      "car": "",
+      "default": [
+        "",
+        "",
+        ""
+      ],
+      "hands-free": "",
+      "headphone": "",
+      "headset": "",
+      "phone": "",
+      "portable": ""
+    },
+    "format-muted": "{format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": " muted",
+    "on-click": "swayosd-client --input-volume mute-toggle",
+    "on-click-right": "pavucontrol",
+    "on-scroll-down": "swayosd-client --input-volume lower",
+    "on-scroll-up": "swayosd-client --input-volume raise"
+  },
+  "spacing": 4,
+  "temperature": {
+    "format": "{temperatureC}°C ",
+    "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input"
+  }
+}
