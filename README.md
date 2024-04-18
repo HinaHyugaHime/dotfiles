@@ -17,7 +17,7 @@ Noteable keybinds:
 
 $MOD=Win key
 
-run wofi: $MOD + R
+run wofi: $MOD + W
 
 terminal: $MOD + T
 
@@ -26,3 +26,5 @@ Quit application: $MOD + Q
 spotify: $MOD + S
 
 full screen: $MOD + F
+
+hyprmsn (view open windows): $MOD + O
