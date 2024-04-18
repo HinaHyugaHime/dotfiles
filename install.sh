@@ -9,6 +9,8 @@ cd ~/
 
 git clone https://github.com/ShakedGold/hyprmsn
 
+cd hyprmsn
+
 chmod +x install.sh
 
 ./install.sh
