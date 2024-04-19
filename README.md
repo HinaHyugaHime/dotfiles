@@ -1,10 +1,7 @@
 # dotfiles
-fixed the notifications, to install:	
+to install:	
 
-```git clone https://github.com/HinaHyugaHime/dotfiles.git```
- 
-then
-then move the .config in dotfiles to your home folder and then run the install.sh
+```download and run install.sh```
 
 previews:
 
