@@ -17,17 +17,17 @@ button {
 }
 
 button:hover {
-    background-color: rgba (255,0,0,0.5);
+    background-color: rgba (221, 113, 25, 0.7);
 }
 
 button:focus {
-    background-color: rgba (255,0,0,0.5);
+    background-color: rgba (221, 113, 25, 0.7);
 }
 
 grid {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
     padding: 5px;
-    box-shadow: 0 0 50px rgba(255,0,0,0.7);
+    box-shadow: 0 0 50px rgba(243, 190, 16, 0.7);
     /* e.g. for common background to all buttons */
 }
