@@ -6,8 +6,9 @@ to install:
 previews:
 
 Mordred:
-	![image](https://github.com/HinaHyugaHime/dotfiles/assets/102651522/235a827f-34d3-46ab-a945-497013f7b0f6)
+![image](https://github.com/HinaHyugaHime/dotfiles/assets/102651522/5f359a32-5891-4870-8f03-fc394a1af66a)
 
+More variants later
 
 
 Noteable keybinds:
